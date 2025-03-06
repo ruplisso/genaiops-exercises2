@@ -1,0 +1,131 @@
+{
+    "type": "object",
+    "properties": {
+        "Spend analysis": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "object",
+                    "properties": {
+                        "analysisSummary": {
+                            "type": "object",
+                            "properties": {
+                                "fromDate": {
+                                    "type": "string"
+                                },
+                                "toDate": {
+                                    "type": "string"
+                                },
+                                "monthsReviewed": {
+                                    "type": "integer"
+                                },
+                                "excludeSuppliersWithAnnualisedSpendBelow": {
+                                    "type": [
+                                        "integer",
+                                        "null"
+                                    ]
+                                },
+                                "suppliersCount": {
+                                    "type": "integer"
+                                },
+                                "billsCount": {
+                                    "type": "integer"
+                                },
+                                "billsAmount": {
+                                    "type": "number"
+                                },
+                                "paymentsCount": {
+                                    "type": "integer"
+                                },
+                                "paymentsAmount": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "fromDate",
+                                "toDate",
+                                "monthsReviewed",
+                                "suppliersCount",
+                                "billsCount",
+                                "billsAmount",
+                                "paymentsCount",
+                                "paymentsAmount"
+                            ]
+                        },
+                        "spendAnalysis": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        },
+                        "supplierAnalysis": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        },
+                        "companyInfo": {
+                            "type": "object",
+                            "properties": {
+                                "companyName": {
+                                    "type": "string"
+                                },
+                                "addresses": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object"
+                                    }
+                                },
+                                "phoneNumbers": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object"
+                                    }
+                                },
+                                "webLinks": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object"
+                                    }
+                                },
+                                "registrationNumber": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "taxNumber": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "baseCurrency": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "companyName"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "analysisSummary",
+                        "spendAnalysis",
+                        "supplierAnalysis",
+                        "companyInfo"
+                    ]
+                }
+            },
+            "required": [
+                "value"
+            ]
+        }
+    },
+    "required": [
+        "Spend analysis"
+    ]
+}

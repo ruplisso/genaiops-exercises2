@@ -1,0 +1,102 @@
+{
+  "Spend analysis": {
+    "value": {
+      "analysisSummary": {
+        "fromDate": "2024-08-01T00:00:00",
+        "toDate": "2024-11-30T00:00:00",
+        "monthsReviewed": 4,
+        "excludeSuppliersWithAnnualisedSpendBelow": 1,
+        "suppliersCount": 19,
+        "billsCount": 33,
+        "billsAmount": 21920.13,
+        "paymentsCount": 16,
+        "paymentsAmount": 13251.89
+      },
+      "spendAnalysis": [
+        {
+          "biggestCountPaymentMethod": "BankTransfer",
+          "suppliersCount": 19,
+          "percentageSuppliersByCount": 100,
+          "percentageBillsByCount": 100,
+          "percentageBillsByAmount": 100,
+          "billsCount": 33,
+          "billsOutstandingCount": 17,
+          "billsAmount": 21920.13,
+          "billsOutstandingAmount": 8668.24,
+          "billsOutstandingPercentageByAmount": 39.6,
+          "paymentsCount": 16,
+          "latePaymentsCount": 0,
+          "paymentsAmount": 13251.89,
+          "averagePaymentAmount": 828.24,
+          "latePaymentsAmount": 0,
+          "latePaymentsPercentageByAmount": 0,
+          "averageBillPaymentTermsWeighted": 10,
+          "averageBillSettlementPeriodWeighted": 8.5
+        }
+      ],
+      "supplierAnalysis": [
+        {
+          "supplierName": "Swanston Security",
+          "contactName": "Unknown",
+          "emailAddress": "Unknown",
+          "taxNumber": "Unknown",
+          "addresses": [],
+          "supplierId": "SWANSTSEC",
+          "importedDate": "2024-08-22T00:00:00",
+          "latestBilled": "2024-10-20T00:00:00",
+          "billsCount": 4,
+          "billsOutstandingCount": 2,
+          "billsAmount": 238.16,
+          "billsOutstandingAmount": 93.64,
+          "billsOutstandingPercentageByAmount": 39.3,
+          "paymentsCount": 2,
+          "latePaymentsCount": 0,
+          "paymentsAmount": 144.52,
+          "averagePaymentAmount": 72.26,
+          "latePaymentsAmount": 0,
+          "latePaymentsPercentageByAmount": 0,
+          "biggestCountPaymentMethod": "BankTransfer",
+          "biggestSpendPaymentMethod": "BankTransfer",
+          "averageBillPaymentTermsWeighted": 9.5,
+          "averageBillSettlementPeriodWeighted": 7.8,
+          "primaryAddress": null
+        },
+        {
+          "supplierName": "SMART Agency",
+          "contactName": "Unknown",
+          "emailAddress": "Unknown",
+          "taxNumber": "Unknown",
+          "addresses": [],
+          "supplierId": "SMARTAG",
+          "importedDate": "2024-09-13T00:00:00",
+          "latestBilled": "2024-10-14T00:00:00",
+          "billsCount": 2,
+          "billsOutstandingCount": 2,
+          "billsAmount": 4500.00,
+          "billsOutstandingAmount": 4500.00,
+          "billsOutstandingPercentageByAmount": 100,
+          "paymentsCount": 0,
+          "latePaymentsCount": 0,
+          "paymentsAmount": 0,
+          "averagePaymentAmount": 0,
+          "latePaymentsAmount": 0,
+          "latePaymentsPercentageByAmount": 0,
+          "biggestCountPaymentMethod": "BankTransfer",
+          "biggestSpendPaymentMethod": "BankTransfer",
+          "averageBillPaymentTermsWeighted": 15,
+          "averageBillSettlementPeriodWeighted": 12.5,
+          "primaryAddress": null
+        }
+      ],
+      "companyInfo": {
+        "companyName": "Unknown",
+        "addresses": [],
+        "phoneNumbers": [],
+        "webLinks": [],
+        "registrationNumber": "Unknown",
+        "taxNumber": "Unknown",
+        "baseCurrency": "GBP"
+      }
+    }
+  }
+}

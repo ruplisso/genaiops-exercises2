@@ -1,0 +1,10 @@
+{"query": "What event started on July 28, 1914?", "context": "It involved multiple countries and lasted until November 11, 1918.", "ground_truth": "World War I"}
+{"query": "Who was the first person to walk on the moon?", "context": "The event occurred during the Apollo 11 mission in 1969.", "ground_truth": "Neil Armstrong"}
+{"query": "What was the significance of the year 1776 in American history?", "context": "A key document was signed declaring independence from British rule.", "ground_truth": "The Declaration of Independence"}
+{"query": "Which wall fell in 1989, symbolizing the end of the Cold War?", "context": "It divided a German city into East and West.", "ground_truth": "The Berlin Wall"}
+{"query": "What ancient city was buried by the eruption of Mount Vesuvius in 79 AD?", "context": "The city's ruins were rediscovered in the 18th century.", "ground_truth": "Pompeii"}
+{"query": "Who was the British Prime Minister during World War II?", "context": "He is famous for his leadership and speeches, including 'We shall fight on the beaches.'", "ground_truth": "Winston Churchill"}
+{"query": "What was the name of the ship that sank on its maiden voyage in 1912?", "context": "It was deemed 'unsinkable' before it hit an iceberg.", "ground_truth": "RMS Titanic"}
+{"query": "Which empire was ruled by Genghis Khan?", "context": "This empire became the largest contiguous land empire in history.", "ground_truth": "The Mongol Empire"}
+{"query": "What was the primary cause of the American Civil War?", "context": "The conflict between the Northern and Southern states escalated over issues including states' rights and slavery.", "ground_truth": "Slavery"}
+{"query": "Which ancient wonder was located in Egypt and served as a tomb for a pharaoh?", "context": "It is the only one of the Seven Wonders of the Ancient World still in existence.", "ground_truth": "The Great Pyramid of Giza"}
