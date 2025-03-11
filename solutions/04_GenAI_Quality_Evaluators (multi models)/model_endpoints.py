@@ -1,8 +1,6 @@
 import requests
 from typing_extensions import Self
 from typing import TypedDict
-from promptflow.tracing import trace
-
 
 class ModelEndpoints:
     def __init__(self: Self, env: dict, model_type: str) -> str:
@@ -13,7 +11,6 @@ class ModelEndpoints:
         query: str
         response: str
 
-    @trace
     def __call__(self: Self, query: str) -> Response:
         if self.model_type == "gpt-4o":
             output = self.call_gpt4o_endpoint(query)
