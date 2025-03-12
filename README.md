@@ -2,7 +2,7 @@
 
 ### Overview
 
-This tutorial provides a step-by-step guide on how to evaluate prompts and models using AI-assisted evaluators (*LLM-as-a-judge*).
+This workshop provides step-by-step exercises on how to evaluate prompts and models using AI-assisted evaluators (*LLM-as-a-judge*). Additionally, it goes through the observability implementation with the tracing capability of the Azure AI Foundry.
 
 ### Objective
 
@@ -17,11 +17,11 @@ The main objective of this tutorial is to help users understand the process of e
 
 1. NLP_Evaluators: Evaluate dataset on traditional ML evaluation methods (F1-score, Rouge, Bleu, etc).
 2. Risk_Safety_Evaluators: Evaluate dataset on AI-assisted evaluation methods to assess model ouputs on from a risk and safety perspective.
-3. GenAI_Quality_Evaluators (single model): Evaluate model ouputs on a dataset through quality AI-assisted evaluation methods (Coherence, Fluency, Groundedness, Relevance).
-4. GenAI_Quality_Evaluators (multi models): Evaluate and compare different models ouputs on a dataset through quality AI-assisted evaluation methods (*Composite* QAEvaluator that contains multiple methods).
+3. GenAI_Quality_Evaluators (single model): Evaluate model ouputs on a dataset through quality AI-assisted evaluation methods (Coherence, Fluency, Groundedness, Relevance) and create your custom evaluators.
+4. GenAI_Quality_Evaluators (multi models): Evaluate and compare different models ouputs on a dataset through quality AI-assisted evaluation methods.
 5. Tracing: Implement tracing capabilities to capture traces on different steps of a GenAI application.
 
-### Programming Languages
+### Programming Language
  - Python
 
 ### Pre-requisites
