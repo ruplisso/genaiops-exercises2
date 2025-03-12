@@ -1,8 +1,8 @@
-## Evaluate using AI as Judge Evaluators with Azure AI Evaluation SDK
+## GenAIOps workshop - Evaluate and Trace Generative AI application
 
 ### Overview
 
-This tutorial provides a step-by-step guide on how to evaluate prompts against variety of model endpoint using AI as Judge evaluators.
+This tutorial provides a step-by-step guide on how to evaluate prompts and models using AI-assisted evaluators (*LLM-as-a-judge*).
 
 ### Objective
 
@@ -11,6 +11,7 @@ The main objective of this tutorial is to help users understand the process of e
  - Learn about evaluations
  - Evaluate prompt against model endpoint of your choice.
  - Evaluate and compare different models on same dataset and evaluation methods.
+ - Instrument your applications to trace GenAI end-to-end workflow
 
 ### Samples
 
