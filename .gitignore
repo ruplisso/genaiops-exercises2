@@ -3,3 +3,4 @@ solutions/.env
 qbo_company/
 06_Online_Evaluations
 06_Online_Evaluations/
+.venv/
