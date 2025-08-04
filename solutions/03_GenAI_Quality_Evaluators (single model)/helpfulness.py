@@ -4,7 +4,6 @@ import math
 import re
 
 from typing_extensions import override
-
 from promptflow.client import load_flow
 
 class HelpfulnessEvaluator():
