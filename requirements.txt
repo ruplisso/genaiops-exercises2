@@ -1,4 +1,4 @@
-openai==1.66.3
+openai==1.98.0
 promptflow==1.17.2
 Requests==2.32.3
 typing_extensions==4.12.2
