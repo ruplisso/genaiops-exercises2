@@ -5,3 +5,4 @@ solutions/.env
 .venv/
 **/__pycache__/
 **/process_log/
+**/Old/
