@@ -17,7 +17,7 @@ The main objective of this tutorial is to help users understand the process of e
 
 ### Samples
 
-You'll find 6 exercises. Each of them have a completed notebook in the solutions folder. 
+You'll find 7 exercises. Each of them have a completed notebook in the solutions folder. 
 
 1. NLP_Evaluators: Evaluate dataset on traditional ML evaluation methods (F1-score, Rouge, Bleu, etc).
 2. Risk_Safety_Evaluators: Evaluate dataset on AI-assisted evaluation methods to assess model ouputs on from a risk and safety perspective.
@@ -25,6 +25,7 @@ You'll find 6 exercises. Each of them have a completed notebook in the solutions
 4. GenAI_Quality_Evaluators (multi models): Evaluate and compare different models ouputs on a dataset through quality AI-assisted evaluation methods.
 5. Tracing: Implement tracing capabilities to capture traces on different steps of a GenAI application.
 6. Agent: Create an agent that is leveraging a function in its toolset and evaluate its performance on Intent resolution, Tool Call Accuracy and Task Adherence.
+9. MCP Server: Integrate an Azure AI Projects agent with an external Model Context Protocol (MCP) server, run an agent that uses MCP tools, and handle approval and inspection of tool calls.
 
 ### Pre-requisites
  - Rename  ```.sample.env``` file to ```.env``` by filling missing environment variables (mostly Azure OpenAI connections and Azure AI Foundry Project information).
