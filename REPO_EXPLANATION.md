@@ -127,7 +127,7 @@ genaiops-exercises2/
 │   └── Agent_evaluation.ipynb
 │
 ├── 09_MCP_Server/             # Model Context Protocol integration
-│   └── MPC_Server_foundry_integration.ipynb
+│   └── MPC_Server_foundry_integration.ipynb  # Note: filename has typo (MPC vs MCP)
 │
 └── solutions/                  # Completed notebooks for reference
     ├── 01_NLP_Evaluators/
@@ -246,6 +246,7 @@ genaiops-exercises2/
 
 ### 🔌 Exercise 9: MCP Server Integration
 **File**: `09_MCP_Server/MPC_Server_foundry_integration.ipynb`
+*Note: The notebook filename contains a typo (MPC instead of MCP)*
 
 **What you'll learn**:
 - Integrating Azure AI Projects agents with Model Context Protocol (MCP)
